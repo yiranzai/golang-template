@@ -5,6 +5,7 @@
 [![Sourcegraph](https://sourcegraph.com/github.com/yiranzai/golang-template/-/badge.svg)](https://sourcegraph.com/github.com/yiranzai/golang-template?badge)
 [![Open Source Helpers](https://www.codetriage.com/yiranzai/golang-template/badges/users.svg)](https://www.codetriage.com/yiranzai/golang-template)
 [![Release](https://img.shields.io/github/release/yiranzai/golang-template.svg?style=flat-square)](https://github.com/yiranzai/golang-template/releases)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fyiranzai%2Fgolang-template.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fyiranzai%2Fgolang-template?ref=badge_shield)
 
 Golang project general template for me.
 
@@ -60,3 +61,5 @@ vim .pre-commit-config.yaml
 This project is licensed under the MIT License.
 See the [LICENSE](https://github.com/yiranzai/golang-template/blob/main/LICENSE) file
 for the full license text.
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fyiranzai%2Fgolang-template.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fyiranzai%2Fgolang-template?ref=badge_large)
