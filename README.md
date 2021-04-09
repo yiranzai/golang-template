@@ -14,20 +14,18 @@ Golang project general template for me.
 ______________________________________________________________________
 
 <!--ts-->
+   * [golang-template](#golang-template)
+      * [目录](#目录)
+      * [Setup](#setup)
+         * [Setup by Command](#setup-by-command)
+         * [Setup on GitHub](#setup-on-github)
+      * [Usage](#usage)
+         * [Install](#install)
+         * [Test](#test)
+         * [Tools](#tools)
+      * [License](#license)
 
-- [golang-template](#golang-template)
-  - [Setup](#setup)
-    - [Setup by Command](#setup-by-command)
-    - [Setup on GitHub](#setup-on-github)
-  - [Usage](#usage)
-    - [Install](#install)
-    - [Test](#test)
-    - [Tools](#tools)
-  - [License](#license)
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)
-
-<!-- Added by: runner, at: Tue Mar 30 15:35:40 UTC 2021 -->
+<!-- Added by: runner, at: Fri Apr  9 18:40:02 UTC 2021 -->
 
 <!--te-->
 
