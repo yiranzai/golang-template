@@ -31,11 +31,6 @@ jobs:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
     - name: install autotag binary
       run: | 
-        # fetch all tags and history:
-        git fetch --tags --unshallow --prune
-        if [ $(git rev-parse --abbrev-ref HEAD) != "master" ]; then
-          git branch --track master origin/master
-        fi
         curl -sL https://git.io/autotag-install | sh --
         ./bin/autotag
         rm -rf ./bin.autotag
