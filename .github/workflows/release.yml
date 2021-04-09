@@ -30,9 +30,7 @@ jobs:
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
     - name: install autotag binary
-      run: |
-        curl -sL https://git.io/autotag-install | sudo sh -s -- -b /usr/bin \
-        autotag
+      run: curl -sL https://git.io/autotag-install | sudo sh -s -- -b /usr/bin /usr/bin/autotag
     - name: Import GPG key
       id: import_gpg
       uses: crazy-max/ghaction-import-gpg@v3
