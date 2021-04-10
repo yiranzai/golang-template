@@ -14,19 +14,23 @@ Golang project general template for me.
 ______________________________________________________________________
 
 <!--ts-->
+   * [golang-template](#golang-template)
+      * [目录](#目录)
+      * [Setup](#setup)
+         * [Setup by Command](#setup-by-command)
+         * [Setup on GitHub](#setup-on-github)
+      * [Usage](#usage)
+         * [Install](#install)
+         * [Test](#test)
+         * [<a href="https://pre-commit.com/" rel="nofollow">Pre-commit</a>](#pre-commit)
+      * [Github Workflows](#github-workflows)
+         * [Golang Test And Coverage](#golang-test-and-coverage)
+         * [<a href="https://github.com/pantheon-systems/autotag">Autotag</a>](#autotag)
+         * [<a href="https://github.com/goreleaser/goreleaser-action">Goreleaser</a>](#goreleaser)
+         * [<a href="https://github.com/yiranzai/github-markdown-toc">Github Markdown TOC</a>](#github-markdown-toc)
+      * [License](#license)
 
-- [golang-template](#golang-template)
-  - [目录](#%E7%9B%AE%E5%BD%95)
-  - [Setup](#setup)
-    - [Setup by Command](#setup-by-command)
-    - [Setup on GitHub](#setup-on-github)
-  - [Usage](#usage)
-    - [Install](#install)
-    - [Test](#test)
-    - [Tools](#tools)
-  - [License](#license)
-
-<!-- Added by: runner, at: Fri Apr  9 19:06:54 UTC 2021 -->
+<!-- Added by: runner, at: Sat Apr 10 09:08:32 UTC 2021 -->
 
 <!--te-->
 
