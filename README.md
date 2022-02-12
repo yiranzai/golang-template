@@ -14,26 +14,25 @@ Golang project general template for me. (pkg)
 ______________________________________________________________________
 
 <!--ts-->
+   * [golang-template <g-emoji class="g-emoji" alias="label" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3f7.png">🏷</g-emoji>](#golang-template-)
+      * [Table of contents <g-emoji class="g-emoji" alias="cd" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bf.png">💿</g-emoji>](#table-of-contents-)
+      * [Setup <g-emoji class="g-emoji" alias="electric_plug" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f50c.png">🔌</g-emoji>](#setup-)
+         * [Setup by Command](#setup-by-command)
+         * [Setup on GitHub](#setup-on-github)
+      * [Usage <g-emoji class="g-emoji" alias="airplane" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2708.png">✈️</g-emoji>](#usage-️)
+         * [Install <g-emoji class="g-emoji" alias="anchor" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2693.png">⚓️</g-emoji>](#install-️)
+         * [Test <g-emoji class="g-emoji" alias="vertical_traffic_light" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f6a6.png">🚦</g-emoji>](#test-)
+         * [<a href="https://pre-commit.com/" rel="nofollow">Pre-commit</a> <g-emoji class="g-emoji" alias="swimmer" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f3ca.png">🏊</g-emoji>](#pre-commit-)
+      * [Recommend <g-emoji class="g-emoji" alias="star" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png">⭐</g-emoji><g-emoji class="g-emoji" alias="star" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png">⭐</g-emoji><g-emoji class="g-emoji" alias="star" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png">⭐</g-emoji><g-emoji class="g-emoji" alias="star" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png">⭐</g-emoji><g-emoji class="g-emoji" alias="star" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2b50.png">⭐️</g-emoji>](#recommend-️)
+         * [Packages <g-emoji class="g-emoji" alias="package" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png">📦</g-emoji>](#packages-)
+         * [Github Workflows <g-emoji class="g-emoji" alias="chains" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26d3.png">⛓</g-emoji>](#github-workflows-)
+            * [Golang Test And Coverage](#golang-test-and-coverage)
+            * [<a href="https://github.com/pantheon-systems/autotag">Autotag</a>](#autotag)
+            * [<a href="https://github.com/goreleaser/goreleaser-action">Goreleaser</a>](#goreleaser)
+            * [<a href="https://github.com/yiranzai/github-markdown-toc">Github Markdown TOC</a>](#github-markdown-toc)
+      * [License <g-emoji class="g-emoji" alias="floppy_disk" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4be.png">💾</g-emoji>](#license-)
 
-- [golang-template](#golang-template)
-  - [Table of contents 💿](#table-of-contents-)
-  - [Setup 🔌](#setup-)
-    - [Setup by Command](#setup-by-command)
-    - [Setup on GitHub](#setup-on-github)
-  - [Usage ✈️](#usage-%EF%B8%8F)
-    - [Install ⚓️](#install-%EF%B8%8F)
-    - [Test 🚦](#test-)
-    - [Pre-commit 🏊](#pre-commit-)
-  - [Recommend ⭐⭐⭐⭐⭐️](#recommend-%EF%B8%8F)
-    - [Packages 📦](#packages-)
-    - [Github Workflows](#github-workflows)
-      - [Golang Test And Coverage](#golang-test-and-coverage)
-      - [Autotag](#autotag)
-      - [Goreleaser](#goreleaser)
-      - [Github Markdown TOC](#github-markdown-toc)
-  - [License 💾](#license-)
-
-<!-- Added by: runner, at: Sat Apr 10 09:08:32 UTC 2021 -->
+<!-- Added by: runner, at: Sat Feb 12 08:45:26 UTC 2022 -->
 
 <!--te-->
 
