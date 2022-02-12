@@ -1,4 +1,4 @@
-# golang-template
+# golang-template 🏷
 
 [![codecov](https://codecov.io/gh/yiranzai/golang-template/branch/master/graph/badge.svg)](https://codecov.io/gh/yiranzai/golang-template)
 [![Go Report Card](https://goreportcard.com/badge/github.com/yiranzai/golang-template)](https://goreportcard.com/report/github.com/yiranzai/golang-template)
@@ -7,28 +7,31 @@
 [![Release](https://img.shields.io/github/release/yiranzai/golang-template.svg?style=flat-square)](https://github.com/yiranzai/golang-template/releases)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fyiranzai%2Fgolang-template.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fyiranzai%2Fgolang-template?ref=badge_shield)
 
-Golang project general template for me.
+Golang project general template for me. (pkg)
 
-## 目录
+## Table of contents 💿
 
 ______________________________________________________________________
 
 <!--ts-->
-   * [golang-template](#golang-template)
-      * [目录](#目录)
-      * [Setup](#setup)
-         * [Setup by Command](#setup-by-command)
-         * [Setup on GitHub](#setup-on-github)
-      * [Usage](#usage)
-         * [Install](#install)
-         * [Test](#test)
-         * [<a href="https://pre-commit.com/" rel="nofollow">Pre-commit</a>](#pre-commit)
-      * [Github Workflows](#github-workflows)
-         * [Golang Test And Coverage](#golang-test-and-coverage)
-         * [<a href="https://github.com/pantheon-systems/autotag">Autotag</a>](#autotag)
-         * [<a href="https://github.com/goreleaser/goreleaser-action">Goreleaser</a>](#goreleaser)
-         * [<a href="https://github.com/yiranzai/github-markdown-toc">Github Markdown TOC</a>](#github-markdown-toc)
-      * [License](#license)
+
+- [golang-template](#golang-template)
+  - [Table of contents 💿](#table-of-contents-)
+  - [Setup 🔌](#setup-)
+    - [Setup by Command](#setup-by-command)
+    - [Setup on GitHub](#setup-on-github)
+  - [Usage ✈️](#usage-%EF%B8%8F)
+    - [Install ⚓️](#install-%EF%B8%8F)
+    - [Test 🚦](#test-)
+    - [Pre-commit 🏊](#pre-commit-)
+  - [Recommend ⭐⭐⭐⭐⭐️](#recommend-%EF%B8%8F)
+    - [Packages 📦](#packages-)
+    - [Github Workflows](#github-workflows)
+      - [Golang Test And Coverage](#golang-test-and-coverage)
+      - [Autotag](#autotag)
+      - [Goreleaser](#goreleaser)
+      - [Github Markdown TOC](#github-markdown-toc)
+  - [License 💾](#license-)
 
 <!-- Added by: runner, at: Sat Apr 10 09:08:32 UTC 2021 -->
 
@@ -36,7 +39,7 @@ ______________________________________________________________________
 
 ______________________________________________________________________
 
-## Setup
+## Setup 🔌
 
 ### Setup by Command
 
@@ -48,27 +51,27 @@ ______________________________________________________________________
 
 Click "Use this template" button on GitHub project page.
 
-## Usage
+## Usage ✈️
 
 Something.
 
-### Install
+### Install ⚓️
 
 ```sh
 go get github.com/yiranzai/golang-template
 ```
 
-### Test
+### Test 🚦
 
 ```sh
-go get gotest.tools/v3
+make test
 ```
 
-### [Pre-commit](https://pre-commit.com/)
+### [Pre-commit](https://pre-commit.com/) 🏊
 
 check or fix code style.
 
-see [.pre-commit-config.yaml](.pre-commit-config.yaml)
+see [.pre-commit-config.yaml](../golang-project-template/.pre-commit-config.yaml)
 
 e.g:
 
@@ -85,23 +88,31 @@ pre-commit install
 vim .pre-commit-config.yaml
 ```
 
-## Github Workflows
+## Recommend ⭐⭐⭐⭐⭐️
+
+### Packages 📦
+
+- [github.com/spf13/cobra](https://github.com/spf13/cobra) powerful modern CLI
+- [github.com/spf13/viper](https://github.com/spf13/viper) Go configuration with fangs
+- [github.com/stretchr/testify](https://github.com/stretchr/testify) Go code (golang) set of packages that provide many tools for testifying that your code will behave as you intend.
+
+### Github Workflows ⛓
 
 This repo used some workflows
 
-### Golang Test And Coverage
+#### Golang Test And Coverage
 
 Golang Test And Coverage upload to [Codecov](https://codecov.io)
 
-### [Autotag](https://github.com/pantheon-systems/autotag)
+#### [Autotag](https://github.com/pantheon-systems/autotag)
 
 Automatically increment version tags to a git repo based on commit messages.
 
-### [Goreleaser](https://github.com/goreleaser/goreleaser-action)
+#### [Goreleaser](https://github.com/goreleaser/goreleaser-action)
 
 GitHub Action for GoReleaser
 
-### [Github Markdown TOC](https://github.com/yiranzai/github-markdown-toc)
+#### [Github Markdown TOC](https://github.com/yiranzai/github-markdown-toc)
 
 This [Github Markdown TOC](https://github.com/yiranzai/github-markdown-toc) fork for [@ekalinin](https://github.com/ekalinin)'s [Github Markdown TOC](https://github.com/ekalinin/github-markdown-toc).
 
@@ -115,7 +126,7 @@ See [ekalinin/github-markdown-toc#110](https://github.com/ekalinin/github-markdo
 --head The TOC is generated in the header of the file, requires --auto
 ```
 
-## License
+## License 💾
 
 This project is licensed under the MIT License.
 See the [LICENSE](./LICENSE) file
